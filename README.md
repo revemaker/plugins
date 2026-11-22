@@ -15,8 +15,8 @@ the skills below. You sign in in your browser, and no API key is ever needed.
 ## Install
 
 ```sh
-claude plugin marketplace add revemaker/revemaker-tools
-claude plugin install revemaker@revemaker-tools
+claude plugin marketplace add revemaker/plugins
+claude plugin install revemaker@revemaker-plugins
 ```
 
 If the plugin's server is missing from `claude mcp list`, look for a manual
@@ -32,8 +32,8 @@ The plugin's skills use the `revemaker` command for sign-in. Install it with
 ## Update
 
 ```sh
-claude plugin marketplace update revemaker-tools
-claude plugin update revemaker@revemaker-tools
+claude plugin marketplace update revemaker-plugins
+claude plugin update revemaker@revemaker-plugins
 ```
 
 To use another server, set `MEDIA_MCP_URL` (ending in `/mcp`) before starting Claude Code.
