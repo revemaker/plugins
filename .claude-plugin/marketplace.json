@@ -1,0 +1,14 @@
+{
+  "name": "revemaker-tools",
+  "owner": {
+    "name": "Revemaker, Inc."
+  },
+  "description": "The revemaker plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "revemaker",
+      "source": "./plugins/revemaker",
+      "description": "revemaker tools for your agent: make short videos from product photos, transcribe recordings and remove backgrounds, after signing in in the browser."
+    }
+  ]
+}
