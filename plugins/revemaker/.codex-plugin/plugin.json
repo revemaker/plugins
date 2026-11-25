@@ -1,0 +1,26 @@
+{
+  "name": "revemaker",
+  "version": "0.1.1",
+  "description": "revemaker tools for your agent: make short videos from product photos, transcribe recordings and remove backgrounds, after signing in in the browser.",
+  "author": {
+    "name": "Revemaker, Inc."
+  },
+  "homepage": "https://revemaker.com",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.codex.json",
+  "interface": {
+    "displayName": "Revemaker",
+    "shortDescription": "Make short videos from product photos, transcribe recordings and remove backgrounds.",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "developerName": "Revemaker, Inc.",
+    "websiteURL": "https://revemaker.com",
+    "privacyPolicyURL": "https://revemaker.com/privacy",
+    "composerIcon": "./.claude-plugin/revemaker-icon-white-on-black-512.png",
+    "logo": "./.claude-plugin/revemaker-icon-white-on-black-512.png"
+  }
+}

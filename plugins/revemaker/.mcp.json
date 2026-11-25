@@ -2,10 +2,10 @@
   "mcpServers": {
     "revemaker": {
       "type": "http",
-      "url": "${MEDIA_MCP_URL:-https://revemaker.com/mcp}",
+      "url": "https://revemaker.com/mcp",
+      "auth": "oauth",
       "oauth": {
-        "clientId": "revemaker-claude-code",
-        "callbackPort": 38765
+        "clientMetadataUrl": "https://revemaker.com/oauth/clients/openclaw.json"
       }
     }
   }

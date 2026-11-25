@@ -1,0 +1,20 @@
+{
+  "name": "revemaker-plugins",
+  "interface": {
+    "displayName": "Revemaker"
+  },
+  "plugins": [
+    {
+      "name": "revemaker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/revemaker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

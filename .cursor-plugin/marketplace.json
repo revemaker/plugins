@@ -1,0 +1,16 @@
+{
+  "name": "revemaker-plugins",
+  "owner": {
+    "name": "Revemaker, Inc."
+  },
+  "metadata": {
+    "description": "The revemaker plugin for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "revemaker",
+      "source": "./plugins/revemaker",
+      "description": "revemaker tools for your agent: make short videos from product photos, transcribe recordings and remove backgrounds, after signing in in the browser."
+    }
+  ]
+}
